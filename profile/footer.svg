@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 170" width="100%" height="100%">
+  <defs>
+    <clipPath id="cardClip">
+      <rect width="1200" height="170" rx="18" />
+    </clipPath>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020813" />
+      <stop offset="50%" stop-color="#071933" />
+      <stop offset="100%" stop-color="#020813" />
+    </linearGradient>
+    <linearGradient id="waveBack" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0052d4" stop-opacity="0.25" />
+      <stop offset="50%" stop-color="#4364f7" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#6fb1fc" stop-opacity="0.15" />
+    </linearGradient>
+    <linearGradient id="waveMid" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0052d4" stop-opacity="0.45" />
+      <stop offset="50%" stop-color="#00b4d8" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#0077b6" stop-opacity="0.3" />
+    </linearGradient>
+    <linearGradient id="waveFront" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0077b6" stop-opacity="0.65" />
+      <stop offset="50%" stop-color="#00b4d8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#90e0ef" stop-opacity="0.5" />
+    </linearGradient>
+  </defs>
+
+  <g clip-path="url(#cardClip)">
+    <rect width="1200" height="170" fill="url(#bgGrad)" />
+
+    <path d="M0,0 L1200,0 L1200,56 C1060,76 920,28 680,65 C420,104 240,30 0,74 Z" fill="url(#waveBack)" />
+    <path d="M0,0 L1200,0 L1200,62 C1100,42 960,94 720,58 C460,22 220,84 0,50 Z" fill="url(#waveMid)" />
+    <path d="M0,0 L1200,0 L1200,40 C1110,28 980,62 740,42 C480,18 260,58 0,32 Z" fill="url(#waveFront)" />
+
+    <text x="600" y="114" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-weight="800" font-size="26" fill="#00e5ff" letter-spacing="1.5">Readmify Open Source</text>
+    <text x="600" y="142" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-weight="600" font-size="13" fill="#90e0ef" letter-spacing="2.5">MAINTAINED BY AYUSH RAJ (@AYUSHCMD)  •  STAR OUR REPOS TO SUPPORT</text>
+  </g>
+</svg>
+
